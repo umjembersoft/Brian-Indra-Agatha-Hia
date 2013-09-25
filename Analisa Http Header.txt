@@ -1,0 +1,120 @@
+REQUEST :
+
+http://elearning.unmuhjember.ac.id/login/index.php?authldap_skipntlmsso=1
+
+POST /login/index.php?authldap_skipntlmsso=1 HTTP/1.1 
+ket: Mengirimkan data login ke server untuk diproses
+_____________________________________________________________________________________________
+Host: elearning.unmuhjember.ac.id
+Ket : Alamat URL elearning unmuh jember
+_____________________________________________________________________________________________
+User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64; rv:23.0) Gecko/20100101 Firefox/23.0
+Ket : Browser Client menggunakan Mozilla tipe 23.0
+_____________________________________________________________________________________________
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Ket :  Menerima data teks, aplication,xhtml + xml
+_____________________________________________________________________________________________
+Accept-Language: en-US,en;q=0.5
+Ket : Menerima Bahasa dari web yang dituju yaitu menggunakan bahasa United Stated
+_____________________________________________________________________________________________
+Accept-Encoding: gzip, deflate
+Ket : Menerima Encoding Gzip Deflate
+_____________________________________________________________________________________________
+Referer: http://elearning.unmuhjember.ac.id/
+Ket : alamat website (Biasanya disebut URL) konten yg merujuk pada konten tsb. 
+Dengan melakukan pengecekan referer, halaman baru dapat mengetahui 
+dari mana request atau panggilan HTTP berasal.
+______________________________________________________________________________________________
+Cookie: __zlcmid=L0dAgbaHDH3Vyc; MoodleSession=jspvl6v4tq83pg7051of9n6qi6; MOODLEID1_=%2599Q%255B%250E%25F5p%2527l%25DC%25A6; MoodleSessionTest=FjrT6wGqlG
+Ket : serangkaian teks yang disimpan pada komputer kita oleh situs web yang kita kunjungi
+_______________________________________________________________________________________________
+Connection: keep-alive
+Ket : Koneksinyang bisa diakses
+_______________________________________________________________________________________________
+Content-Type: application/x-www-form-urlencoded
+Ket : konten tipe berupa aplikasi dan alamat url itu berupa form 
+________________________________________________________________________________________________
+Content-Length: 39
+username=1 100631007&password=1100631007
+Ket : Panjang konten ada 39 
+      Username client untuk masuk ke elearning unmuhjember yaitu =1100631007 
+      dan password clientnya =1100631007
+________________________________________________________________________________________________
+
+
+
+
+http://elearning.unmuhjember.ac.id/login/environment.php?sesskey=26NCrGFXd8&flashversion=11.8.800
+
+GET /login/environment.php?sesskey=26NCrGFXd8&flashversion=11.8.800 HTTP/1.1
+Ket : Mengambil data login dari server
+_________________________________________________________________________________________________
+Host: elearning.unmuhjember.ac.id
+Ket : Nama sebuah komputer yang terhubung pada internet (terhubung pada web elearning.unmuhjember.ac.id)
+_________________________________________________________________________________________________
+User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64; rv:23.0) Gecko/20100101 Firefox/23.0
+Ket : Browser Client menggunakan Mozilla tipe 23.0
+__________________________________________________________________________________________________
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Ket : Menerima data teks, aplication,xhtml + xml
+___________________________________________________________________________________________________
+Accept-Language: en-US,en;q=0.5
+Ket : Menerima Bahasa dari web yang dituju yaitu menggunakan bahasa United Stated
+___________________________________________________________________________________________________
+Accept-Encoding: gzip, deflate
+Ket : Menerima Encoding Gzip Deflate
+____________________________________________________________________________________________________
+X-Requested-With: XMLHttpRequest
+Ket :merequest dengan XMLHttprquest
+_____________________________________________________________________________________________________
+Referer: http://elearning.unmuhjember.ac.id/
+Ket : alamat website (Biasanya disebut URL) konten yg merujuk pada konten tsb. 
+      Dengan melakukan pengecekan referer, halaman baru dapat mengetahui 
+      dari mana request atau panggilan HTTP berasal      
+_____________________________________________________________________________________________________
+Cookie: __zlcmid=L0dAgbaHDH3Vyc; MoodleSession=ml00i16cq1rblfqg4b7aorjj66; MoodleSessionTest=DDZXzVpuCF; MOODLEID1_=%2599Q%255B%250E%25F5p%2527l%25DC%25A6
+Ket : serangkaian teks yang disimpan pada komputer kita oleh situs web yang kita kunjungi
+______________________________________________________________________________________________________
+Connection: keep-alive
+Ket : Koneksi yang bisa diakses
+______________________________________________________________________________________________________
+
+
+
+RESPONT :
+
+HTTP/1.1 200 OK
+Server: nginx/1.0.5
+Ket : Server telah menyetujui Proses Login atau proses login berhasil 
+_______________________________________________________________________________________________________
+Date: Wed, 25 Sep 2013 03:28:27 GMT
+Ket :Tanggal memproses elearning unmuh jember hari rabu 25 september 2013
+_______________________________________________________________________________________________________
+Content-Type: text/html
+Ket : Tipe konten text/ html
+_______________________________________________________________________________________________________
+Transfer-Encoding: chunked
+Ket : klien dapat memastikan bahwa mereka telah menerima semua data yang server kirimkan
+_______________________________________________________________________________________________________
+Connection: keep-alive
+Ket : Koneksi yang bisa diakses
+________________________________________________________________________________________________________
+X-Powered-By: PHP/5.3.6-13ubuntu3.10
+Ket : server menggunakan OS ubuntu 3.10 dan bahasa pemrograman PHP/5.3.6-13
+________________________________________________________________________________________________________
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Ket : Kadaluarsa kamis 19 november 1981
+________________________________________________________________________________________________________
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Ket : sebagai pengawas 
+________________________________________________________________________________________________________
+Pragma: no-cache
+Ket : Tag dapat tidak mencegah halaman yang di-cache 
+________________________________________________________________________________________________________
+Vary: Accept-Encoding
+Ket : Menerima perbedaaan pengkodean
+_________________________________________________________________________________________________________
+Content-Encoding: gzip
+Ket : Kadar pengkodeannya gzip
+_________________________________________________________________________________________________________
+
